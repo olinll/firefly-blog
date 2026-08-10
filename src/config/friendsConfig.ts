@@ -265,6 +265,42 @@ export const friendsConfig: FriendLink[] = [
 		weight: 5,
 		enabled: true,
 	},
+	{
+		title: "Xixmu",
+		imgurl: "https://xixmu.top/_astro/head_ima.rsW3s28l_1KtIxl.avif",
+		desc: "在记忆干枯前描绘。",
+		siteurl: "https://xixmu.top",
+		tags: ["Astro"],
+		weight: 5,
+		enabled: true,
+	},
+	{
+		title: "星诺的博客",
+		imgurl: "https://blog.astrvow.com/_astro/logo.DuHgmi9I_1k5uPc.webp",
+		desc: "只要热爱，太阳就会升起！",
+		siteurl: "https://blog.astrvow.com/",
+		tags: ["Astro"],
+		weight: 5,
+		enabled: true,
+	},
+	{
+		title: "SilverCode_Nexus",
+		imgurl: "https://cdn.replow.org/replow-org/images/tx.ico",
+		desc: "Replow的小站",
+		siteurl: "https://www.replow.org/",
+		tags: ["PHP"],
+		weight: 5,
+		enabled: true,
+	},
+	{
+		title: "SkyのXnok",
+		imgurl: "https://201562.xyz/avatar.png",
+		desc: "记录学习、生活与思考",
+		siteurl: "https://201562.xyz/",
+		tags: ["Astro"],
+		weight: 5,
+		enabled: true,
+	},
 ];
 
 // 获取启用的友链并进行排序
