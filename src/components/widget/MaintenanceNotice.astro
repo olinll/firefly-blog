@@ -1,0 +1,32 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<aside
+	class="mb-4 flex flex-col gap-4 rounded-(--radius-large) border border-(--line-divider) bg-(--card-bg) px-5 py-4 sm:flex-row sm:items-center"
+	aria-labelledby="maintenance-notice-title"
+>
+	<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-(--primary)/15 text-(--primary)">
+		<Icon is:inline name="material-symbols:construction-rounded" class="text-2xl" />
+	</div>
+	<div class="min-w-0 flex-1">
+		<h2 id="maintenance-notice-title" class="font-bold text-(--primary)">网站正在重构</h2>
+		<p class="mt-1 text-sm leading-6 text-(--text-muted)">目前评论功能暂时无法使用</p>
+		<p class="mt-1 text-xs leading-5 text-(--text-muted)">
+			如有任何疑问，请联系站长或加入 QQ 群交流。
+		</p>
+	</div>
+	<div class="flex shrink-0 gap-2">
+		<a href="mailto:olinl@foxmail.com" class="btn-regular rounded-lg px-3 py-2 text-sm">
+			联系站长
+		</a>
+		<a
+			href="https://qm.qq.com/q/fFoJQDz5rG"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="btn-regular rounded-lg bg-(--primary) px-3 py-2 text-sm text-white hover:bg-(--primary)"
+		>
+			加入 QQ 群
+		</a>
+	</div>
+</aside>
